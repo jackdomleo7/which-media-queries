@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "module": "Node16",
+    "target": "ESNext",
+    "moduleResolution": "node16",
+    "strict": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "types": ["node", "vite", "vitest"]
+}
