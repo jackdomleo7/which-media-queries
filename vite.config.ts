@@ -30,6 +30,7 @@ export default defineConfig({
     coverage: {
       enabled: true,
       include: ['src/**/*.{ts,vue}'],
+      exclude: ['src/main.ts', 'src/data']
     }
   }
 })
