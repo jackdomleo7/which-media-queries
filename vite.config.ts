@@ -26,9 +26,10 @@ export default defineConfig({
     exclude: [...configDefaults.exclude, 'e2e/**'],
     root: fileURLToPath(new URL('./', import.meta.url)),
     restoreMocks: true,
+    globals: true,
     coverage: {
       enabled: true,
       include: ['src/**/*.{ts,vue}'],
-    },
+    }
   }
 })
