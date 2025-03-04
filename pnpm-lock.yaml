@@ -33,6 +33,9 @@ importers:
       sass:
         specifier: ^1.85.1
         version: 1.85.1
+      type-fest:
+        specifier: ^4.37.0
+        version: 4.37.0
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -1501,6 +1504,10 @@ packages:
   tr46@5.0.0:
     resolution: {integrity: sha512-tk2G5R2KRwBd+ZN0zaEXpmzdKyOYksXwywulIX95MBODjSzMIuQnQ3m8JxgbhnL1LeVo7lqQKsYa1O3Htl7K5g==}
     engines: {node: '>=18'}
+
+  type-fest@4.37.0:
+    resolution: {integrity: sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==}
+    engines: {node: '>=16'}
 
   typescript@5.8.2:
     resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
@@ -3185,6 +3192,8 @@ snapshots:
     dependencies:
       punycode: 2.3.1
     optional: true
+
+  type-fest@4.37.0: {}
 
   typescript@5.8.2: {}
 
