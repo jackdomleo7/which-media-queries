@@ -11,5 +11,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <style lang="scss" scoped>
-
+header {
+  font-size: 2rem;
+}
 </style>
