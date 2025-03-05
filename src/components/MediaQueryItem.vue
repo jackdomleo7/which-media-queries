@@ -6,7 +6,7 @@
       <code>{{ value }}</code>
     </li>
   </ul>
-  <p>Detected: {{ detected }}</p>
+  <p>Detected: <code>{{ detected }}</code></p>
   <a :href="data.docs" target="_blank">{{ data.docs }}</a>
 </template>
 
