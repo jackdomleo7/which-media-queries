@@ -1,0 +1,22 @@
+html {
+  font-size: 100%;
+  padding: 1rem;
+}
+
+*,
+*::before,
+*::after,
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  touch-action: manipulation;
+}
