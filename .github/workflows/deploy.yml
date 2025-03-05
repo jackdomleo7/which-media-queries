@@ -25,6 +25,9 @@ jobs:
       - name: Clean install Node dependencies
         run: pnpm i --frozen-lockfile
 
+      - name: Run tests
+        run: pnpm run test
+
       - name: Build app
         run: pnpm run build
 
