@@ -11,13 +11,32 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0f172a;
+  min-height: 100vh;
+  margin: 0;
+  color: #2d3748;
+
+  @media (prefers-color-scheme: light) {
+    background: #f1f5f9;
+  }
 }
 
 a {
   touch-action: manipulation;
-  color: dodgerblue;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    color: #764ba2;
+    text-decoration: underline;
+  }
 }

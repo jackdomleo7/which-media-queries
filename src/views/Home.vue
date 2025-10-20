@@ -15,10 +15,11 @@ items.sort((a,b) => (a.query > b.query) ? 1 : ((b.query > a.query) ? -1 : 0)) //
 main {
   margin-top: 3rem;
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   grid-template-columns: 1fr;
 
   @media (min-width: 400px) {
+    gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   }
 }
